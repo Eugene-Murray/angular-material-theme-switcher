@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 10px;
+}
+
+.example-card {
+  max-width: 400px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.example-card-footer {
+  padding: 16px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.button-toggle-group {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 10px;
+
+    mat-button-toggle {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+    }
+}
